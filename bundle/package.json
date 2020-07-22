@@ -1,0 +1,17 @@
+{
+  "name": "bundle",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@ionic/react": "^5.2.3",
+    "css-loader": "^3.6.0",
+    "dayjs": "^1.8.17",
+    "style-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
