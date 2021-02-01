@@ -1,10 +1,10 @@
 (() => ({
-  name: 'ListItem',
-  icon: 'TitleIcon',
+  name: 'Alert',
+  icon: 'AlertIcon',
   category: 'CONTENT',
   structure: [
     {
-      name: 'ListItem',
+      name: 'Alert',
       options: [],
       descendants: [],
     },
