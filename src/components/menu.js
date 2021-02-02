@@ -15,6 +15,8 @@
     const { env } = B;
     const isDev = env === 'dev';
 
+    const { menuPosition } = options;
+
     const [, setToggleMenu] = useState(false);
 
     useEffect(() => {
@@ -23,7 +25,7 @@
     }, []);
 
     const Comp = (
-      <IonMenu side="end" contentId="main-content" menuId="first">
+      <IonMenu side={menuPosition} contentId="main-content" menuId="first">
         <IonHeader>
           <IonToolbar color="primary">
             <IonTitle>Start Menu</IonTitle>

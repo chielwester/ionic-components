@@ -5,7 +5,22 @@
   structure: [
     {
       name: 'Menu',
-      options: [],
+      options: [
+        {
+          label: 'Menu Position',
+          key: 'menuPosition',
+          value: 'end',
+          type: 'CUSTOM',
+          configuration: {
+            as: 'BUTTONGROUP',
+            dataType: 'string',
+            allowedInput: [
+              { name: 'Left', value: 'start' },
+              { name: 'Right', value: 'end' },
+            ],
+          },
+        },
+      ],
       descendants: [],
     },
   ],
